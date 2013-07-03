@@ -1,5 +1,9 @@
 require 'sinatra'
-require "dzintars/kompilators"
+require 'dzintars/kompilators'
+
+configure :production do
+  require 'newrelic_rpm'
+end
 
 get '/' do
   erb :index
