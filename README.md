@@ -1,4 +1,4 @@
-[dzintars.herokuapp.com](dzintars.herokuapp.com)
+[dzintars.herokuapp.com](http://dzintars.herokuapp.com)
 ===========
 [Dzintara](https://github.com/dzintars-valoda/dzintars) webiskais interpretators
 
@@ -7,7 +7,7 @@
     bundle install
     shotgun app.rb
 
-## Piedalīšanās Dzintara izstrādē
+## Piedalīšanās Dzintars.web izstrādē
 
 Sūtiet vilkšanas pieprasījumus.
 
