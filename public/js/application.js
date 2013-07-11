@@ -13,4 +13,4 @@ $('#run').on('click', function(e) {
   $.post('/', { code: editor.getValue() }, function(data) {
     $('.dzintars_rezult').html(data);
   });
-})
+});
