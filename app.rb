@@ -11,6 +11,8 @@ end
 
 post '/' do
   $stdout = StringIO.new
-  eval Dzintars::Kompilators.new.uz_ruby(params[:code])
+  code = params[:code].gsub('`', '\'')
+  code = 'puts \'ej dirst\'' if code.include?('%x{')
+  eval Dzintars::Kompilators.new.uz_ruby(code)
   $stdout.string
 end
