@@ -1,7 +1,7 @@
 <div class="wrapper">
-  <form action="/" method="post">
-    <textarea name="code" style="font-size: 14px; width: 600px; height: 400px;">
-vērtība = 10
+  <div class="clear">
+    <div class="dzintars_block">
+      <textarea name="code" id="code">vērtība = 10
 
 ja vērtība > 100 tad
   izdrukāt_virkni "viss kārtībā"
@@ -9,9 +9,11 @@ bet_ja vērtība > 0 tad
   izdrukāt_virkni "gandrīz kārtībā"
 citādi
   izdrukāt_virkni "nav labi"
-beigas
-    </textarea>
-    <br>
-    <input type="submit" value='Palaist'>
-  </form>
+beigas</textarea>
+    </div>
+    <div class="dzintars_rezult"></div>
+  </div>
+  <div class="controls">
+    <a href="#" id="run">Palaist</a>
+  </div>
 </div>

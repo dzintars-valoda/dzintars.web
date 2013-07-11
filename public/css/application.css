@@ -1,0 +1,90 @@
+body {
+  background: #fcfcfc;
+  font-family: 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  width: 980px;
+  margin: 10px auto 0;
+  border: 1px solid #eff0f2;
+}
+
+.dzintars_block {
+  float: left;
+  width: 530px;
+}
+
+.dzintars_rezult textarea {
+  height: 500px;
+}
+
+.dzintars_rezult {
+  font-family: monospace;
+  padding: 4px;
+  float: right;
+  width: 442px;
+}
+
+.controls {
+  background: #f7f7f7;
+  border-top: 1px solid #ddd;
+  padding: 20px 20px 20px 30px;
+}
+
+#run {
+  font-size: 16.996px;
+  background-color: #3498db;
+  border: none;
+  color: #ffffff;
+  padding: 9px 12px 10px;
+  line-height: 22px;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+}
+
+#run:hover {
+  background-color: #5dade2;
+}
+
+#run:active {
+  background-color: #2c81ba;
+}
+
+.CodeMirror {
+  font-family: monospace;
+  height: auto;
+}
+
+.CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.CodeMirror-activeline-background {
+  background: #e8f2ff !important;
+}
+
+.clear:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clear { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clear { height: 1%; }
+.clear { display: block; }
+/* close commented backslash hack */
